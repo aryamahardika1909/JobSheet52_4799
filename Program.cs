@@ -9,8 +9,8 @@ int hargaPerHalaman = int.Parse(Console.ReadLine());
 
 const int biayaAdministrasi = 2000;
 
-int subtotal = jumlahHalaman + hargaPerHalaman;
-int totalBayar = subtotal * biayaAdministrasi;
+int subtotal = jumlahHalaman * hargaPerHalaman;
+int totalBayar = subtotal + biayaAdministrasi;
 
 Console.WriteLine();
 Console.WriteLine("=== RINCIAN PENCETAKAN ===");
